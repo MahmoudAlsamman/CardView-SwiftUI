@@ -8,9 +8,35 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @State var isPresented: Bool = false
+    
     var body: some View {
-        Text("Hello, world!")
+        VStack {
+            Button(action: { isPresented.toggle() }) {
+                Text("Show card")
+            }
+        }.cardView(title: "Selected Photo📸", isPresented: $isPresented) {
+            SelectedPhotoView()
+        }
+    }
+}
+
+struct SelectedPhotoView: View {
+    
+    var body: some View {
+        VStack{
+        Text("Neon Gallery")
+            .multilineTextAlignment(.center)
+            .font(.title3)
+        Image("IMG_8995")
+            .resizable()
+            .aspectRatio(contentMode: .fill)
+            .frame(height: 200)
+            .cornerRadius(12)
+            .shadow(color: .black, radius: 20)
             .padding()
+        }
     }
 }
 

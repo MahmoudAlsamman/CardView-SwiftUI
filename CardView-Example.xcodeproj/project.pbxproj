@@ -11,6 +11,7 @@
 		D2B95C93266557710030FB57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B95C92266557710030FB57 /* ContentView.swift */; };
 		D2B95C95266557740030FB57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B95C94266557740030FB57 /* Assets.xcassets */; };
 		D2B95C98266557740030FB57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B95C97266557740030FB57 /* Preview Assets.xcassets */; };
+		D2B95CA126655A3C0030FB57 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B95CA026655A3C0030FB57 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		D2B95C94266557740030FB57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2B95C97266557740030FB57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2B95C99266557740030FB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B95CA026655A3C0030FB57 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				D2B95C90266557710030FB57 /* CardView_ExampleApp.swift */,
 				D2B95C92266557710030FB57 /* ContentView.swift */,
+				D2B95CA026655A3C0030FB57 /* CardView.swift */,
 				D2B95C94266557740030FB57 /* Assets.xcassets */,
 				D2B95C99266557740030FB57 /* Info.plist */,
 				D2B95C96266557740030FB57 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B95C93266557710030FB57 /* ContentView.swift in Sources */,
+				D2B95CA126655A3C0030FB57 /* CardView.swift in Sources */,
 				D2B95C91266557710030FB57 /* CardView_ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
