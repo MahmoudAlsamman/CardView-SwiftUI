@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-
+    
+    /// Card presentation state
     @State var isPresented: Bool = false
     
     var body: some View {
@@ -16,7 +17,9 @@ struct ContentView: View {
             Button(action: { isPresented.toggle() }) {
                 Text("Show card")
             }
-        }.cardView(title: "Selected Photo📸", isPresented: $isPresented) {
+        }
+        .cardView(title: "Selected Photo📸", isPresented: $isPresented) {
+            // Add view that you want to embed inside CardView.
             SelectedPhotoView()
         }
     }
